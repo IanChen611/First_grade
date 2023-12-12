@@ -1,0 +1,52 @@
+﻿題目網站:https://tjhsieh.github.io/c/cp/cp2023f/hw/index.html
+作業網站:https://140.124.181.25/upload/Login
+
+
+1byte => 8bit
+int   4byte => 32bit
+float 4byte => 32bit
+
+expression 表示式
+//等號右方即為表示式
+可以替換成變數、常數、運算值
+
+#0918 學到的小技巧
+如果一個箱子只能裝四個頻果
+那就要幾個箱子就是
+boxs = (apples + 3) / 4
+#小技巧
+
+Operator 運算子
+Operand  運算元
+
+
+Operator associativity
+結合律
+"+、-、*、/"  皆為 left associative(左結合)
+正負號為皆為 right associative(右結合)
+
+7 / 0.2f => C會將7轉型成7.0f
+
+
+#移位運算子
+"<<"、">>"
+a = 0110
+b = a << 1 // b = 1100
+c = a >> 1 // b = 0011
+可以得到2的次方結果
+
+#OR運算 |
+a = 0001
+b = a | 2 = a | 0010 = 0011
+c = a | 4 = a | 0100 = 0100
+
+a |= 2 //a = 0011
+
+
+#AND運算 &
+a = 0011
+b = a & 1 = 0001
+c = a & 2 = 0010
+
+a &= 2 //a = 0001
+
